@@ -15,12 +15,20 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Farming-specific variants
+        farming: "bg-gradient-farming text-primary-foreground hover:shadow-natural transition-all duration-300",
+        sunshine: "bg-gradient-sunshine text-accent-foreground hover:shadow-sunshine transition-all duration-300",
+        earth: "bg-secondary text-secondary-foreground hover:bg-secondary/90 shadow-earth",
+        success: "bg-success text-success-foreground hover:bg-success/90",
+        warning: "bg-warning text-warning-foreground hover:bg-warning/90",
       },
       size: {
         default: "h-10 px-4 py-2",
         sm: "h-9 rounded-md px-3",
         lg: "h-11 rounded-md px-8",
+        xl: "h-14 rounded-lg px-8 text-base font-semibold",
         icon: "h-10 w-10",
+        "icon-lg": "h-12 w-12",
       },
     },
     defaultVariants: {
